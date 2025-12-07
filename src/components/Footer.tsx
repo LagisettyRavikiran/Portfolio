@@ -1,4 +1,3 @@
-import { Heart } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,11 +14,6 @@ const Footer = () => {
           {/* Copyright */}
           <p className="text-sm text-muted-foreground text-center">
             © {currentYear} Ravikiran Lagisetty. All rights reserved.
-          </p>
-
-          {/* Made with love */}
-          <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Made with <Heart size={14} className="text-destructive fill-destructive" /> in India
           </p>
         </div>
       </div>

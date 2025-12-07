@@ -1,4 +1,4 @@
-import { ExternalLink, Github, Sparkles } from 'lucide-react';
+import { Github, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
 
 const ProjectsSection = () => {
@@ -129,7 +129,7 @@ const ProjectsSection = () => {
           {/* View All Button */}
           <div className="text-center mt-12">
             <Button variant="heroOutline" size="lg" asChild>
-              <a href="https://github.com/LagisettyRavikiran" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/LagisettyRavikiran?tab=repositories" target="_blank" rel="noopener noreferrer">
                 <Github size={18} />
                 View All Projects on GitHub
               </a>
